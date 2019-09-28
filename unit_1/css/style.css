@@ -4,9 +4,10 @@ body 	{background-color: #ff9933;
 		margin:10px;}
 
 h1 		{border-bottom: solid;
-		margin:2px;
+		margin:5px;
 		padding-bottom: 10px;
-		text-align: center;} 
+		text-align: center;
+		}
 
 div 	{background-color: #ffbf80;
 		padding:10px;
