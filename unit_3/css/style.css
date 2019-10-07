@@ -1,0 +1,53 @@
+body {
+	font-family: "Verdana", sans-serif;
+}
+
+nav {
+	background: #eaece5;
+	padding: 5px;
+}
+
+.background1 {
+		background: #b2c2bf;
+		padding: 70px;
+	
+}
+#easterisland {
+	width: 475px;
+	float: left;
+	margin: -30px;
+	border: double;
+	border-color: #eaece5;
+	
+}
+h1, h2{
+	text-align: center;
+	color: #eaece5;
+	font-size: 48px;
+	text-transform: uppercase;
+	padding: 5px;
+}
+
+#h2 {
+	font-size: 32px;
+}
+
+#slogan {
+	float: left;
+	text-align: justify;
+	background: #eaece5;
+
+}
+
+.blogs {
+	border: double;
+	border-color: #eaece5;
+}
+
+/* not sure what im doing wrong here*/
+
+
+/* color pallete HEX#s HEX: #eaece5
+HEX: #b2c2bf
+HEX: #c0ded9
+HEX: #3b3a30 */
