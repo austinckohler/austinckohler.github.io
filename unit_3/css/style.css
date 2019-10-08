@@ -2,53 +2,68 @@ body {
 	font-family: "Verdana", sans-serif;
 }
 
-nav {
+nav{
 	background: #eaece5;
 	padding: 5px;
+	margin: 2px;
+}
+#resume {
+	float: left;
+	width: 50%;
+}
+#blogs {
+	float: right;
 }
 
 .background1 {
-		background: #b2c2bf;
-		padding: 70px;
-	
+	background: #b2c2bf;
+	width: 100%
 }
+
 #easterisland {
 	width: 475px;
 	float: left;
-	margin: -30px;
+	margin: 10px;
+	padding: 5px;
 	border: double;
 	border-color: #eaece5;
-	
+	background-image: :#c0ded9;
 }
-h1, h2{
-	text-align: center;
-	color: #eaece5;
-	font-size: 48px;
+#name {
+	padding: 95px;
+	text-align: justify;
+	color:#eaece5;
 	text-transform: uppercase;
-	padding: 5px;
+	text-align: center;
 }
 
-#h2 {
-	font-size: 32px;
+h1 {
+	font-size: 40px;
 }
 
-#slogan {
+.slogan {
 	float: left;
 	text-align: justify;
 	background: #eaece5;
-
+	margin: 2px;
+	padding:15px;
 }
 
-.blogs {
-	border: double;
+.blogtitle {
+	float: left;
+	width: 24%;
+	padding: 2px;
+	margin:2px;
+	border:double;
 	border-color: #eaece5;
+	background: #b2c2bf;
+	text-align: center;
 }
 
 /* not sure what im doing wrong here*/
 
 
-/* color pallete HEX#s HEX: #eaece5
-<<<<<<< HEAD
+/* color pallete HEX#s #eaece5
 HEX: #b2c2bf
 HEX: #c0ded9
 HEX: #3b3a30 */
