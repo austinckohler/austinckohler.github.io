@@ -5,7 +5,7 @@
 <head>
 	<title>Austin's Blog</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-@import url('https://fonts.googleapis.com/css?family=Hind&display=swap');
+
 
 </head>
 <body>
@@ -14,6 +14,7 @@
 	<!--is this the proper format?, play around with this to see what looks better and ask question in 1-on-1 for assitance -->
 
 	<header>
+		<div class="container">
 			<nav>
 					<a href="contact" id="contact">contact</a>
 
@@ -21,23 +22,23 @@
 
 					<a href="blogs" id="blogs">blogs</a>
 			</nav>
-	<div class="background1">
-		<section>
-			<img src="images/IMG_0176.jpg" alt="austin on easter island" title="austin in rapa nui national park" id="easterisland">
-		</section>
-			
-		<section id="name">
-			<aside>
-				<h1>Austin Kohler</h1>
-				<h2>A driven Software Tech developing skills to move into a Software Engineeering role </h2>
-		</aside>
-		</section>
-			
-	</div>
-	</header>
+		</div>
+				</header>
 
-	<div>
+
+	<section class="background1">
+		<div class="container">
+			<img src="images/IMG_0176.jpg" alt="austin on easter island" title="austin in rapa nui national park" id="easterisland">
+			<aside id="name">
+			<h1>Austin Kohler</h1>
+			<h2>A driven Software Tech developing skills to move into a Software Engineeering role </h2>
+		</aside>
+	</div>
+	</section>
+
+
 		<section class="slogan">
+				<div class="container">
 			<h4> About Me </h4>
 		<p> 
 			Welcome to my site!
@@ -56,32 +57,48 @@
 		<p>
 				<a href="#">link to resume</a>
 			</p>
+				</div>
 		</section>
-	</div>
 
-	<div class="columns">
-			<aside class="blogtitle">
+	<section class="columns">
+			<div class="container">
+			<a href="#" class="blogtitle">
 			<h3> blog 1</h3>
-			<a href="#">
+			
 			<p>one line summary of blog</p>
-			</aside>
-		<aside class="blogtitle">
+			</a>
+		<a class="blogtitle">
 			<h3> blog 2 </h3>
-				<a href="#">
+			
 			<p>one line summary of blog</p>
-		</aside>
-		<aside class="blogtitle">
+		</a>
+		<a class="blogtitle">
 			<h3> blog 3 </h3>
-				<a href="#">
+			
 			<p>one line summary of blog</p>
-		</aside>
-			<aside class="blogtitle">
+		</a>
+			<a class="blogtitle">
 			<h3> blog 4 </h3>
-				<a href="#">
+			
 			<p>one line summary of blog</p>
-			</aside>
+			</a>
+		</div>
+	</section>
+
+	<div class="flexbox">
+		
+		<div>1</div>
+		<a class="blogtitle"></a>
+		<div>2</div>
+		<a class="blogtitle"></a>
+		<div>3</div>
+		<a class="blogtitle"></a>
+		<div>4</div>
+		<a class="blogtitle"></a>
+	
 	</div>
 
+	
 
 </body>
 </html>

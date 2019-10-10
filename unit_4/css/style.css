@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Hind&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 body {
 	font-family: "Verdana", sans-serif;
 }
-
+.container {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+}
 nav{
 	background: #eaece5;
 	padding: 5px;
@@ -19,7 +29,15 @@ nav{
 	background: #b2c2bf;
 	width: 100%
 }
-
+img {
+	width: 475px;
+	float: left;
+	margin: 10px;
+	padding: 5px;
+	border: double;
+	border-color: #eaece5;
+	background-image: :#c0ded9;
+}
 #easterisland {
 	width: 475px;
 	float: left;
@@ -48,6 +66,8 @@ h1 {
 	background: #eaece5;
 	margin: 2px;
 	padding:15px;
+	width: 100%;
+	font-size: 20px;
 }
 
 .blogtitle {
@@ -60,16 +80,15 @@ h1 {
 	background: #b2c2bf;
 	text-align: center;
 }
-
-/* how can i improve? 
-	i am not understanding how to the layout of this 
-	for example, when would i use a taf like this
-	div, p {
-	
-	}?
-
-	what is the best way to have the 4 blog sections together underlining only thr blog title and not having the one line summary of blog underlined?
+/*
+.columns {
+	width: 100%;
+}
 */
+.flexbox {
+	display: flex;
+	flex-direction: row;
+}
 
 
 /* color pallete HEX#s #eaece5
