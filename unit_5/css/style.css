@@ -22,9 +22,6 @@ nav {
 	border: 3px black solid;
 }
 
-h1 {
-	color: blue;
-}
 
 aside {
 	background: #ffc675;
@@ -57,4 +54,9 @@ body {
 }
 #blog4 {
 	background: orange;
+}
+
+.blogs 
+{
+	background: purple;
 }
