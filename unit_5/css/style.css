@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	border: 3px black solid;
+	width: 100%;
+	max-width:1024px;
+	margin: auto;
+}
+
+}
+header {
+	background: #ffed74;
+	border: 3px black solid;
+}
+
+nav {
+	background: #e8c66a;
+	border: 3px black solid;
+}
+
+h1 {
+	color: blue;
+}
+
+aside {
+	background: #ffc675;
+	border: 3px black solid;
+}
+
+article {
+	background: #e89c6c;
+}
+
+#intro {
+	background: blue;
+}
+
+.name {
+	background: green;
+}
+body {
+	background: tan;
+}
+
+#blog1 {
+	background: teal;
+}
+#blog2 {
+	background: silver;
+}
+#blog3 {
+	background: navy;
+}
+#blog4 {
+	background: orange;
+}

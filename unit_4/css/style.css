@@ -4,96 +4,81 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-body {
-	font-family: "Verdana", sans-serif;
+
+#wrapper {
+	width: 100%;
+	max-width:1024px;
+	margin: auto;
 }
+
+header {
+		background: #3b3a30;
+
+
+}
+nav {
+	text-align: center;
+	width: 100%;
+}
+
+nav a {
+
+	display: inline-block;
+	/*width: 100px;*/
+	width: 32.3%;
+	text-align: center;
+	/*padding-left: 30%;
+	padding-right: 30%;*/
+}
+nav a:hover {
+	background: #eaece5; 
+}
+
+
 .container {
 	width: 100%;
 	max-width: 1024px;
-	margin: 0 auto;
-}
-nav{
-	background: #eaece5;
-	padding: 5px;
-	margin: 2px;
-}
-#resume {
-	float: left;
-	width: 50%;
-}
-#blogs {
-	float: right;
-}
+	margin: 0, auto;
+	border:double;
 
+}
 .background1 {
 	background: #b2c2bf;
-	width: 100%
-}
-img {
-	width: 475px;
-	float: left;
-	margin: 10px;
-	padding: 5px;
-	border: double;
-	border-color: #eaece5;
-	background-image: :#c0ded9;
-}
-#easterisland {
-	width: 475px;
-	float: left;
-	margin: 10px;
-	padding: 5px;
-	border: double;
-	border-color: #eaece5;
-	background-image: :#c0ded9;
-}
-#name {
-	font-family: 
-	padding: 95px;
-	text-align: justify;
-	color:#eaece5;
-	text-transform: uppercase;
-	text-align: center;
-	font-family: 'Cinzel', serif;
+	width: 100%;
+	/*padding: .5em;*/
+/*	margin:auto;
+*/	clear: both;
+	border:5px black solid;
+
 }
 
-h1 {
-	font-size: 60px;
+#name {
+	color: #eaece5;
+	background: teal;
+	text-align: center;
+	width: 50%;
+	/*float: right;*/
+	margin: auto;
+	display: inline-block;
+	padding: 2em;
 }
-h2 {
-	font-size: 35px
+
+
+
+#easterisland {
+	width: 45%;
+	/*display: inline;*/
+	
+	
 }
 
 .slogan {
-	font-family: 'Hind', sans-serif;
-	float: left;
-	text-align: justify;
-	background: #eaece5;
-	margin: 2px;
-	padding:15px;
-	width: 100%;
-	font-size: 18px;
+	clear:both;
+}
+body {
+	font-family: "Verdana", sans-serif;
 }
 
-.blogtitle {
-	float: left;
-	width: 23.1%;
-	padding: 2px;
-	margin:2px;
-	border:double;
-	border-color: #eaece5;
-	background: #b2c2bf;
-	text-align: center;
-}
-/*
-.columns {
-	width: 100%;
-}
-*/
-.flexbox {
-	display: flex;
-	flex-direction: row;
-}
 
 
 /* color pallete HEX#s #eaece5
