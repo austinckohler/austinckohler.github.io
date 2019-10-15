@@ -11,24 +11,22 @@
 	margin: auto;
 }
 
-header {
-		background: #112d32;
-
-
-}
+/*header {
+		background: #fbe8a6;
+		padding: .2em;
+}*/
 nav {
 	text-align: center;
 	width: 100%;
+	border: 1px #b4dfe6 solid;
 }
 
 nav a {
-
-	display: inline-block;
-	/*width: 100px;*/
-	width: 32.3%;
+	float: left;
+	display: block;
+	width: 33.3%;
 	text-align: center;
-	/*padding-left: 30%;
-	padding-right: 30%;*/
+	background: #fbe8a6;
 }
 nav a:hover {
 	background: #88bdbc;
@@ -39,14 +37,14 @@ nav a:hover {
 	width: 100%;
 	max-width: 1024px;
 	margin: 0, auto;
-	border:double;
+	/*border:double;*/
 	
 
 
 }
 .background1 {
 	display: flex;
-	background: #254e58;
+	background: #303c6c;
 	width: 100%;
 	/*padding: .5em;*/
 /*	margin:auto;
@@ -68,11 +66,14 @@ nav a:hover {
 	font-family: "Cinzel", serif;
 	
 }
-/*.clearfix {
+.clearfix:after {
 	content: ".";
 	visibility: hidden;
 	display: block;
-	height: 0;}*/
+	height: 0;
+	clear: both;
+	font-size: 0;
+}
 
 #name h1{
 	font-size: 52px;
@@ -92,14 +93,25 @@ nav a:hover {
 	max-width: 460.8px;
 	min-width: 460.8px;
 	/*display: inline;*/
-	padding:.5em;
+	padding:.2em;
 	margin: .5em;
+	border: 2px #b4dfe6 dashed;
+	background-color: #fbe8a6
 }
 
 .slogan {
 	clear:both;
-	background: #88bddc;
+	background: #f4976c; 
+	color:  #303c6c;
 	line-height: 2em;
+	padding: 1em;
+}
+
+.slogan a {
+	color: #88bdbc;
+	background: #303c6c;
+	padding: .1em; 
+	margin: .1em;
 }
 body {
 	font-family: "Verdana", sans-serif;
@@ -107,7 +119,8 @@ body {
 
 .flexbox {
 	display: flex;
-	background: #4f4a41;
+	background: #88bdbc;
+	padding: 1em;
 }
 .blogtitle {
 		flex-direction: row;
@@ -115,19 +128,29 @@ body {
 		justify-content: ;
 		border: 1px black solid;
 		margin: auto;
-		background: #112d32;
-		color: #88bdbc;
+		background: #fbe8a6; 
+		color: #303c6c;
 		text-align: center;
+		padding: .3em;
 }
 
+a {
+	color: #f4976c; 
+	text-decoration: none;
 
+}
+
+a:hover {
+	background: #f4976c;
+}
 
 /* color pallete HEX#s 
 
-#88bdbc - light blue
-#254e58 - darket blue
-#112d32 - navy blue
-#4f4a41 - blue grey
-#6e6658 - silver
+#fbe8a6;  - gold/yellow
+#f4976c;  - peach
+#303c6c;  - blue
+#b4dfe6;  - light blue
+#d2fdff;  - clear,blue
+#88bdbc;  - greenblue
 
  */
