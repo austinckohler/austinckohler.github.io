@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Hind&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*html {
+	background-image: url(images/IMG_8656.jpg) no-repeat center fixed;
+	background-size: cover;
+}
+
+i dont undertsand why this image wont show as a background to the wrapper
+*/
+#wrapper {
+	width: 100%;
+	max-width:1024px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+#srilanka {
+	position: fixed;
+	top: -50%;
+	left: -50%;
+	width: 200%;
+	height: 200%;
+	z-index: -1;
+}
+#srilanka img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	min-width: 50%;
+	min-height: 50%;
+}
+.container {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	}
+
+nav {
+	width: 100%;
+	
+}
+
+nav a {
+	float: left;
+	display: block;
+	width: 33.33%;
+	text-align: center;
+	background: #fbe8a6;
+}
+nav a:hover {
+	background: #88bdbc;
+}
+
+.background1 {
+	display: flex;
+	background: #303c6c;
+	width: 100%;
+
+}
+
+#name {
+	color: #d2fdff;
+	/*background: teal;*/
+	text-align: center;
+	width: 50%;
+	font-family: "Cinzel", serif;
+	/*display: block;*/
+	margin: auto;
+	text-transform: uppercase;
+	
+}
+.clearfix:after {
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+	font-size: 0;
+}
+
+#name h1{
+	font-size: 52px;
+/*	text-transform: uppercase;
+	margin-bottom: .01em;
+	margin-top: 1.5em;*/
+}
+
+#name h2 {
+	font-size: 28px;
+	/*text-transform: uppercase;
+	margin-bottom: 1.5em;
+	margin-top: .01em;*/
+}
+
+img {
+	display: block;
+	width: 100%;
+	
+}
+#easterisland img{
+	border: 2px #b4dfe6 dashed;
+	margin: auto;
+}
+
+#easterisland {
+	width: 50%;
+	/*display: inline;*/
+	padding:.2em;
+	margin: .5em;
+	
+	/*background-color: #fbe8a6*/
+}
+
+ul {
+	margin: 1em;
+	padding: 1em;
+}
+#hobbies {
+	line-height: 3em;
+}
+.slogan {
+	
+	background: #f4976c; 
+	color:  #303c6c;
+	line-height: 2em;
+	padding: 1em;
+	width: 100%;
+}
+
+.slogan a {
+	color: #88bdbc;
+	background: #303c6c;
+	padding: .1em; 
+	margin: .1em;
+}
+body {
+	font-family: "Verdana", sans-serif;
+}
+
+.flexbox {
+	display: flex;
+	background: #88bdbc;
+	padding: 1em;
+	/*flex-wrap: wrap;*/
+	/*flex-direction: column;*/
+	justify-content: space-around;
+	clear: both;
+}
+
+.blogtitle {
+		display: block;
+		border: 2px #b4dfe6 dashed;
+		/*margin: auto;*/
+		background: #fbe8a6; 
+		color: #303c6c;
+		text-align: center;
+		padding: .3em;
+		width: 15%;
+}
+
+a {
+	color: #f4976c; 
+	text-decoration: none;
+
+}
+
+a:hover {
+	background: #f4976c;
+}
+
+.divider {
+	height: 0.3em;
+	background-color: #fff2eb;
+}
+
+/* color pallete HEX#s 
+
+#fbe8a6;  - gold/yellow
+#f4976c;  - peach
+#303c6c;  - blue
+#b4dfe6;  - light blue
+#d2fdff;  - clear,blue
+#88bdbc;  - greenblue
+
+ */
+ 
