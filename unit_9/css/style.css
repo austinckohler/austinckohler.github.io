@@ -42,17 +42,15 @@ i dont undertsand why this image wont show as a background to the wrapper
 	margin: 0 auto;
 	}
 
-nav {
-	width: 100%;
-	
-}
 
 nav a {
 	float: left;
-	display: block;
 	width: 33.33%;
 	text-align: center;
 	background: #fbe8a6;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 18px;
 }
 nav a:hover {
 	background: #88bdbc;
@@ -62,41 +60,6 @@ nav a:hover {
 	display: flex;
 	background: #303c6c;
 	width: 100%;
-
-}
-
-#name {
-	color: #d2fdff;
-	/*background: teal;*/
-	text-align: center;
-	width: 50%;
-	font-family: "Cinzel", serif;
-	/*display: block;*/
-	margin: auto;
-	text-transform: uppercase;
-	
-}
-.clearfix:after {
-	content: ".";
-	visibility: hidden;
-	display: block;
-	height: 0;
-	clear: both;
-	font-size: 0;
-}
-
-#name h1{
-	font-size: 52px;
-/*	text-transform: uppercase;
-	margin-bottom: .01em;
-	margin-top: 1.5em;*/
-}
-
-#name h2 {
-	font-size: 28px;
-	/*text-transform: uppercase;
-	margin-bottom: 1.5em;
-	margin-top: .01em;*/
 }
 
 img {
@@ -107,21 +70,44 @@ img {
 #easterisland img{
 	border: 2px #b4dfe6 dashed;
 	margin: auto;
+padding:.2em;
+	margin: .5em;
+
 }
 
 #easterisland {
-	width: 50%;
-	/*display: inline;*/
-	padding:.2em;
-	margin: .5em;
-	
-	/*background-color: #fbe8a6*/
+	width: 53%;
+	/*padding:.2em;
+	margin: .5em;*/
 }
 
-ul {
-	margin: 1em;
-	padding: 1em;
+#name {
+	color: #d2fdff;
+	text-align: center;
+	width: 45%;
+	font-family: "Cinzel", serif;
+	margin: auto;
+	margin-right: .9%;
+	text-transform: uppercase;	
 }
+
+.clearfix:after {
+	content: " ";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+	font-size: 0;
+}
+
+#name h1{
+	font-size: 52px;
+}
+
+#name h2 {
+	font-size: 28px;
+}
+
 #hobbies {
 	line-height: 3em;
 }
@@ -132,14 +118,26 @@ ul {
 	line-height: 2em;
 	padding: 1em;
 	width: 100%;
+	text-align: justify;
+
 }
 
+.slogan p {
+	margin-bottom: 1em;
+}
+
+
+
 .slogan a {
-	color: #88bdbc;
-	background: #303c6c;
 	padding: .1em; 
 	margin: .1em;
+	text-transform: uppercase;
+	font-weight: bold;
 }
+.slogan a:hover {
+	color: #fbe8a6;
+}
+
 body {
 	font-family: "Verdana", sans-serif;
 }
@@ -157,7 +155,6 @@ body {
 .blogtitle {
 		display: block;
 		border: 2px #b4dfe6 dashed;
-		/*margin: auto;*/
 		background: #fbe8a6; 
 		color: #303c6c;
 		text-align: center;
@@ -166,7 +163,7 @@ body {
 }
 
 a {
-	color: #f4976c; 
+	color: #303c6c; 
 	text-decoration: none;
 
 }
@@ -179,6 +176,7 @@ a:hover {
 	height: 0.3em;
 	background-color: #fff2eb;
 }
+
 
 /* color pallete HEX#s 
 
