@@ -11,7 +11,7 @@
 
 i dont undertsand why this image wont show as a background to the wrapper
 */
-#wrapper {
+.wrapper {
 	width: 100%;
 	max-width:1024px;
 	margin: 0 auto;
@@ -49,20 +49,21 @@ img {
 	width: 100%;
 	
 }
-#easterisland img{
+#easterisland {
 	border: 2px #b4dfe6 dashed;
 	margin: auto;
 padding:.2em;
 	margin: .5em;
+	width: 53%
 
 }
 
-#easterisland {
+/*#easterisland {
 	width: 53%;
-	/*padding:.2em;
-	margin: .5em;*/
+	padding:.2em;
+	margin: .5em;
 }
-
+*/
 #name {
 	color: #d2fdff;
 	text-align: center;
@@ -119,9 +120,15 @@ padding:.2em;
 	color: #fbe8a6;
 }
 
+.slogan ul {
+	padding-left: 2em;
+}
+
 body {
 	font-family: "Verdana", sans-serif;
 	background-color: #d2fdff;
+	background: url(../images/mizlake.jpg) center;
+	background-size: 5px;
 }
 
 .flexbox {
@@ -166,7 +173,11 @@ a:hover {
 	background-color: #fff2eb;
 }
 
-
+section h6 {
+	background-color: #88bdbc;
+	font-size: 5em;
+	text-indent: 1em;
+}
 /* color pallete HEX#s 
 
 #fbe8a6;  - gold/yellow
