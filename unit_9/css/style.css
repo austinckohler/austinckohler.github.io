@@ -178,6 +178,19 @@ section h6 {
 	font-size: 5em;
 	text-indent: 1em;
 }
+
+@media only screen and (max-width: 440px) {
+	.background1 {
+			flex-direction: column;
+			flex-grow: 2;}
+	#easterisland {
+		width: 100%;
+	}
+	#name {
+		width: 100%;
+	}
+
+
 /* color pallete HEX#s 
 
 #fbe8a6;  - gold/yellow
