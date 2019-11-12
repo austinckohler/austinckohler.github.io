@@ -53,10 +53,10 @@ img {
 	border: 2px #b4dfe6 dashed;
 	margin: auto;
 padding:.2em;
-	margin: .5em;
-	width: 53%
+	width: 53%;
 
 }
+/*picture starts stretching and im not sure why r how fix it*/
 
 /*#easterisland {
 	width: 53%;
@@ -179,17 +179,25 @@ section h6 {
 	text-indent: 1em;
 }
 
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 555px) {
 	.background1 {
 			flex-direction: column;
-			flex-grow: 2;}
+			clear: both;
+		}
 	#easterisland {
 		width: 100%;
-	}
+	/*	min-width: 345px;*/
+		} 
+	
 	#name {
 		width: 100%;
 	}
-
+	nav {
+		float: none;
+		display: flex;
+		flex-direction: column;
+		
+	}
 
 /* color pallete HEX#s 
 
