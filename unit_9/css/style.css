@@ -85,10 +85,12 @@ padding:.2em;
 
 #name h1{
 	font-size: 52px;
+	/*font-size: 2.5em;*/
 }
 
 #name h2 {
 	font-size: 28px;
+	/*font-size: 1.5em;*/
 }
 
 #hobbies {
@@ -130,6 +132,7 @@ body {
 	background: url(../images/mizlake.jpg) center;
 	background-size: 5px;
 }
+
 
 .flexbox {
 	display: flex;
@@ -175,11 +178,12 @@ a:hover {
 
 section h6 {
 	background-color: #88bdbc;
-	font-size: 5em;
-	text-indent: 1em;
+	font-size: 2em;
+	color:  #303c6c;
+	text-align: center;
 }
 
-@media only screen and (max-width: 555px) {
+@media only screen and (max-width: 480px) {
 	.background1 {
 			flex-direction: column;
 			clear: both;
@@ -196,8 +200,25 @@ section h6 {
 		float: none;
 		display: flex;
 		flex-direction: column;
-		
+		flex-grow: 2;
+
 	}
+	#name h1 {
+		font-size: 2.5em;
+	}
+	#name h2 {
+		font-size: 1.5em;
+	}
+	section h6 {
+		font-size: 1.5em;
+	}
+	.flexbox {
+		flex-direction: column;
+	}
+	.blogtitle {
+		width: 100%;
+	}
+}
 
 /* color pallete HEX#s 
 
