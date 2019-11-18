@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Hind&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*html {
+	background-image: url(images/IMG_8656.jpg) no-repeat center fixed;
+	background-size: cover;
+}
+
+i dont undertsand why this image wont show as a background to the wrapper
+*/
+.wrapper {
+	width: 100%;
+	max-width:1024px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.container {
+	width: 80%;
+	max-width: 1024px;
+	margin: 0 auto;
+	}
+
+
+nav a {
+	float: left;
+	width: 30%;
+	text-align: center;
+	background: #fbe8a6;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 1em;
+
+}
+nav a:hover {
+	background: #88bdbc;
+}
+
+.background1 {
+	display: flex;
+	background: #303c6c;
+	width: 90%;
+}
+
+img {
+	display: block;
+	width: 100%;
+	
+}
+#easterisland {
+	border: .2em #b4dfe6 dashed;
+	margin: auto;
+padding:.2em;
+	width: 53%;
+
+}
+/*picture starts stretching and im not sure why r how fix it*/
+
+/*#easterisland {
+	width: 53%;
+	padding:.2em;
+	margin: .5em;
+}
+*/
+#name {
+	color: #d2fdff;
+	text-align: center;
+	width: 45%;
+	font-family: "Cinzel", serif;
+	margin: auto;
+	margin-right: .9%;
+	text-transform: uppercase;	
+}
+
+.clearfix:after {
+	content: " ";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+	font-size: 0;
+}
+
+#name h1{
+	font-size: 52px;
+	/*font-size: 2.5em;*/
+}
+
+#name h2 {
+	font-size: 28px;
+	/*font-size: 1.5em;*/
+}
+
+#hobbies {
+	line-height: 3em;
+}
+.slogan {
+	
+	background: #f4976c; 
+	color:  #303c6c;
+	line-height: 2em;
+	padding: 1em;
+	width: 90%;
+	text-align: justify;
+
+}
+
+.slogan p {
+	margin-bottom: 1em;
+}
+
+
+.slogan a {
+	padding: .1em; 
+	margin: .1em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.slogan a:hover {
+	color: #fbe8a6;
+}
+
+.slogan ul {
+	padding-left: 2em;
+}
+
+body {
+	font-family: "Verdana", sans-serif;
+	background-color: #d2fdff;
+	background: url(../images/mizlake.jpg) center;
+	background-size: 5px;
+}
+
+
+.flexbox {
+	display: flex;
+	background: #88bdbc;
+	padding: 1em;
+	/*flex-wrap: wrap;*/
+	/*flex-direction: column;*/
+	justify-content: space-around;
+	clear: both;
+	width: 90%;
+}
+
+.blogtitle {
+		display: block;
+		border: 2px #b4dfe6 dashed;
+		background: #fbe8a6; 
+		color: #303c6c;
+		text-align: center;
+		padding: 1em;
+		width: 50%;
+}
+
+.blogtitle img {
+	transform: rotate(90deg);
+	position: relative;
+	width: 100%;
+
+}
+
+a {
+	color: #303c6c; 
+	text-decoration: none;
+
+}
+
+a:hover {
+	background: #f4976c;
+}
+
+.divider {
+	height: 0.3em;
+	background-color: #fff2eb;
+}
+
+section h6 {
+	background-color: #88bdbc;
+	font-size: 2em;
+	color:  #303c6c;
+	text-align: center;
+	width: 90%;
+}
+
+@media only screen and (max-width: 480px) {
+	.background1 {
+			flex-direction: column;
+			clear: both;
+		}
+	#easterisland {
+		width: 100%;
+	/*	min-width: 345px;*/
+		} 
+	
+	#name {
+		width: 100%;
+	}
+	nav {
+		float: none;
+		display: flex;
+		flex-direction: column;
+		flex-grow: 2;
+
+	}
+	#name h1 {
+		font-size: 2.5em;
+	}
+	#name h2 {
+		font-size: 1.5em;
+	}
+	section h6 {
+		font-size: 1.5em;
+	}
+	.flexbox {
+		flex-direction: column;
+	}
+	.blogtitle {
+		width: 100%;
+	}
+}
+
+/* color pallete HEX#s 
+
+#fbe8a6;  - gold/yellow
+#f4976c;  - peach
+#303c6c;  - blue
+#b4dfe6;  - light blue
+#d2fdff;  - clear,blue
+#88bdbc;  - greenblue
+
+ */
+ 
