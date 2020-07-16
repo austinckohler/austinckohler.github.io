@@ -49,6 +49,11 @@ img {
 	width: 100%;
 	
 }
+
+#dev.to {
+	display: inline;
+
+}
 #easterisland {
 	border: 2px #b4dfe6 dashed;
 	margin: auto;
