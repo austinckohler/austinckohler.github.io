@@ -148,7 +148,9 @@ body {
 	justify-content: space-around;
 	clear: both;
 }
-
+.recentblogs{
+	display: inline
+}
 .blogtitle {
 		display: block;
 		border: 2px #b4dfe6 dashed;
